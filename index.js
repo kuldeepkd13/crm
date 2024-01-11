@@ -11,6 +11,9 @@ const Port = process.env.port || 8080
 const app = express();
 app.use(express.json())
 
+app.get("/",(req,res)=>{
+    res.status(200).send("crm")
+})
 
 app.use("/employee",employeeRoute)
 app.use("/enquiry", enquiryRoute)
