@@ -23,6 +23,7 @@ app.listen(Port,async()=>{
         await connection
         console.log("Connect to Mongodb")
     } catch (error) {
+        console.log(error)
         console.log("Db is not Connected")
     }
     console.log(`server is running at ${Port}`)
