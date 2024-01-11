@@ -8,8 +8,8 @@ This backend application provides a Customer Relationship Management (CRM) syste
  - [Technologies](#technologies-used)
  - [Installation](#installation)
  - [Routes](#routes)
-   - [User Authentication](#user-authentication)
-   - [Quiz Management](#quiz-management)
+   - [Employee Management](#employee-management)
+   - [Enquiry Management](#enquiry-management)
 
 
 ## Features
