@@ -82,7 +82,7 @@ This backend application provides a Customer Relationship Management (CRM) syste
 
 | Method | Endpoint                   | Description                                     | Authentication Required |
 | ------ | ---------------            | -----------------------------------             | ------------------------ |
-| POST   | `/enquiry/publicform`      | Submit an enquiry through a public form         | Yes                      |
+| POST   | `/enquiry/publicform`      | Submit an enquiry through a public form         | No                       |
 | PATCH  | `/enquiry/claim/:enquiryId`| Claim an enquiry by an authenticated employee   | Yes                      |
 | GET    | `/enquiry/unclaimed`       | Get all unclaimed enquiries                     | Yes                      |
 | GET    | `/enquiry/myClaim`         | Get enquiries claimed by the logged-in employee | Yes                      |                     |
